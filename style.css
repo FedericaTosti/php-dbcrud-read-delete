@@ -1,0 +1,24 @@
+*{
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #dbd697;
+  text-align: center;
+}
+
+.pagante{
+  border: 2px solid #539e08;
+  border-radius: 30px;
+  background-color: #9bed4a;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.delete {
+  cursor: pointer;
+}

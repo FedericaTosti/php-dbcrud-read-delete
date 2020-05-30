@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" charset="utf-8"></script>
+    <meta charset="utf-8">
+    <title>Php Crud</title>
+  </head>
+
+  <body>
+    <!-- creare una index + delete sulla tabella paganti. Mostrare tutte le informazioni interessanti dell'entita' e dare la possibilita' all'utente di elminare un pagante dalla tabella e quindi dal front-end -->
+    <h1>LISTA PAGANTI HOTEL</h1>
+    <div id="paganti">
+
+    </div>
+
+    <!-- template handlebars js -->
+    <script id="pagante-template" type="text/x-handlebars-template">
+      <div class="pagante" data-id="{{id}}">
+        <h3>NOME E COGNOME: {{name}} {{lastname}} INDIRIZZO: {{address}}</h3>
+        <span><i class="delete fas fa-trash-alt"></i></span>
+      </div>
+    </script>
+
+  </body>
+</html>
